@@ -57,7 +57,10 @@ Após executar esse script, os pontos serão salvos no arquivo `fin4pontos.txt`.
 Uso de **excel.py**:
 
 ```bash
+sed -i 's/://g' fin4pontos.txt #processamento específico para a planilha
+
 source ../myenv/bin/activate
+
 python excel.py (dia do mês para colar a partir) (nome arquivo) (nome da folha MODELO) (nome funcionário)
 ```
 Este projeto possui a capacidade de entender um número arbitrário de pontos num dado dia. 
