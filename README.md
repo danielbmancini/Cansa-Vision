@@ -8,7 +8,7 @@ Para as classes Python, é necessário um ambiente _myenv_ com os requisitos ins
 Instale os requisitos e o repositório (linux) com os comandos:
 
 ```bash
-git clone https://github.com/username/Cansa-Vision.git
+git clone https://github.com/danielbmancini/Cansa-Vision.git
 
 python -m venv myenv
 source myenv/bin/activate
