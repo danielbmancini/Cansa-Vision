@@ -59,7 +59,7 @@ Uso de **excel.py**:
 ```bash
 sed -i 's/://g' fin4pontos.txt #processamento específico para a planilha
 
-source ../myenv/bin/activate
+source ./myenv/bin/activate
 
 python excel.py (dia do mês para colar a partir) (nome arquivo) (nome da folha MODELO) (nome funcionário)
 ```
