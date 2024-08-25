@@ -1,0 +1,9 @@
+myenv/
+.env
+debugparse.sh
+outdebug.txt
+jqtest.sh
+assumptions
+modelo6.xlsx
+excel6.py
+.vscode
