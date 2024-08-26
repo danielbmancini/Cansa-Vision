@@ -1,16 +1,20 @@
 #!/usr/bin/gawk -f
-#Transforma output.txt em fin4pontos.txt (tabelação)
+#Transforma outvertex.txt em fin4pontos.txt (tabelação)
 BEGIN {
     FS=":"
-    OFS=""
+    
 }
     {
     # Comparar tempo com a função HH:MM -> HH*100 + MM (HHMM)
     timeValue = $1 * 100 + $2
 
     # Inicializar variaveis
-    if (NR == 1) {
+    if(NR == 1) {
+    if ($1 == "FOLGA") {
+       line = "FOLGA\n"
+    } else {
         line = sprintf("%02d:%02d", $1, $2)
+    }
         prevTime = timeValue
         next
     }
