@@ -7,7 +7,7 @@ Para as classes Python, é necessário um ambiente _myenv_ com os requisitos ins
 Instale os requisitos e o repositório (linux) com os comandos:
 
 ```bash
-git clone https://github.com/danielbmancini/Cansa-Vision.git
+git clone --branch python-api-azure-ocr https://github.com/danielbmancini/Cansa-Vision.git
 
 python -m venv myenv
 source myenv/bin/activate
@@ -20,7 +20,6 @@ Se você estiver no Windows, também é necessário instalar as seguintes ferram
 
 - **awk**
 - **sed**
-- **jq**
 
 São necessárias as chaves **Azure** `AI_SERVICE_KEY` e `AI_SERVICE_ENDPOINT` (de um projeto [computer vision](https://portal.azure.com/#create/Microsoft.CognitiveServicesComputerVision)) no arquivo de ambiente `.env`, que deve ser salvo na raiz do projeto.
 
