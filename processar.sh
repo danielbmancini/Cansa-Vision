@@ -37,25 +37,18 @@ case "${FILENAME##*.}" in
 esac
 
 #Requisição ao Azure de um JSON contendo material reconhecido ópticamente, separados. Salvar em body.json
-curl -H "Ocp-Apim-Subscription-Key: $AI_SERVICE_KEY" \
-     -H "Content-Type: $MIME_TYPE" \
-     --data-binary "@$FILENAME" \
-     "$AI_SERVICE_ENDPOINT/computervision/imageanalysis:analyze?features=read&model-version=latest&language=en&api-version=2024-02-01" > body.json
+#curl -H "Ocp-Apim-Subscription-Key: $AI_SERVICE_KEY" \
+ #    -H "Content-Type: $MIME_TYPE" \
+ #    --data-binary "@$FILENAME" \
+ #    "$AI_SERVICE_ENDPOINT/computervision/imageanalysis:analyze?features=read&model-version=latest&language=en&api-version=2024-02-01" > body.json
+export VISION_KEY
+export VISION_ENDPOINT
+
+python ocr.py "$FILENAME" > output.txt
 
 
-#Coletar os 'text's da estrutura denotada abaixo e salvar em output.txt
-jq -r '.readResult.blocks[].lines[].words[].text' body.json > output.txt 
 
-
-
-#prompt
-instruct=$(cat prompt)
-
-out=$(cat output.txt)
-
-#Requisição ao vertexAI para remover noise e induzir padrões 
-python vertex.py "$out" "$instruct" > outvertex.txt
-
+./vert.sh
 #limpar fin4pontos
 echo "" > fin4pontos.txt
 

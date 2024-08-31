@@ -4,7 +4,7 @@ from openpyxl import load_workbook
 import sys
 import re
 
-# uso: python excel4.py (linha) (nome arquivo) (nome da folha MODELO) (nome func.)
+# uso: python excel.py (linha) (nome arquivo) (nome da folha MODELO) (nome func.)
 
 
 file_name = sys.argv[2] #nome do arquivo

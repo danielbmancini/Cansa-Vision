@@ -1,37 +1,22 @@
-Nº
-ORDEM
-EMPREGADOR
-OU
-RAZÃO
-SOCIAL
+Nº ORDEM
+EMPREGADOR OU RAZÃO SOCIAL
 C.N.P.J.
-ATIVIDADE
-ECONÔMICA
+ATIVIDADE ECONÔMICA
 EMPREGADO
-.
-ROSANGELA
-Nº
-REGISTRO
-Nº
-CTPS
+Nº REGISTRO
 FUNÇÃO
-Op
-LOCAL
-DO
-TRABALHO
-1ªQUINZENA
+açou gueiro
+LOCAL DO TRABALHO
+1ª QUINZENA
 MÊS
-AGOSTO
 ANO
-2024
+-8
 ENTRADA
-INTERVALO
-PARA
-REFEIÇÃO
-SAIDA
-REPOUSO
-SEMANAL
+INTERVALO PARA REFEIÇÃO
+SAÍDA
+REPOUSO SEMANAL
 Trab.
+Ží
 MANHÃ
 TARDE
 EXTRA
@@ -41,98 +26,45 @@ Entrada
 Saída
 Entrada
 Saída
-Extras
-DIAS
 Horas
-H.
-Nor.
-Hor.
-de
+Extras
+H. Nor. |Hor. de
 1
+6.30
+12:0 14.30 1630
 2
+6.30
+81129 =13:27-16:25
 3
+=06:30
+=1154814:06 =16:22
 4
-5
-7:30
-12:00
-14:50€18:14
-6
-#0754-1136
-$14:48
-$18:24
-7
-51259$16:06
-=16:19
-52027
-8
-$10:06
-1321
-:1551
-$20:25
-9
-@09:51
-$1339
-$1624
-$2029
-10
-=09:40
-$13:04
-=1555=2011
-11
-06:00
-#07:27
-=07:33
-=13:06
-12
 FOLGA
+5 0632 $11:20 813:33 1627
+6
+¥063131129 1338
+$16:24
+7506:29
+=1134613:39 516:28
+8
+@06:34
+$1108 13:12 @16:25
+9 =0632 $12:10
+≥14:16 =16:28
+10
+=0631 1133 31319 51559
+11
+FOLGA
+12
+20633#1052
+#1314=1626
 13
-=0939
-13:02
-:15:55
-:20:04
-14
-209:48
-#12:53
-=16:03/2001
+P0634#1130 =13:42 #1649
+14 =0633#1122 1334-16:23
 15
-:09:43
-13:06
-#1554
--20:13
-De
-conformidade
-com
-a
-Portaria
-Mtb
-nº
-3626/91
-de
-13/11/91,
-este
-Cartão
-de
-Ponto,
-substitui,
-para
-todos
-os
-efeitos,
-o
-Quadro
-de
-Horário
-de
-Trabalho
-e
-Ficha
-de
-Horário
-de
-Trabalho
-Externo."
+#0632 1132 =13:40|>1624
+"De conformidade com a Portaria Mtb nº 3626/91 de 13/11/91, este Cartão de
+Ponto, substitui, para todos os efeitos, o Quadro de Horário de Trabalho e
+Ficha de Horário de Trabalho Externo."
 tilibra
-CÓD.
-15019
-TIPO
-RB
+CÓD. 15019 TIPO RB
